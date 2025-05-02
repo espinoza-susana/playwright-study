@@ -4,7 +4,7 @@
   "scripts": {
     "test": "npx playwright test",
     "test:all": "npx playwright test",
-    "test:week1": "npx playwright test --project=week1",
+    "test:week1": "npx playwright test --ui --project=week1",
     "test:week2": "npx playwright test --project=week2",
     "test:week3": "npx playwright test --project=week3",
     "test:week4": "npx playwright test --project=week4",
