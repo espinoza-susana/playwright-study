@@ -2,7 +2,19 @@
   "name": "playwright-study",
   "version": "1.0.0",
   "scripts": {
-    "test": "npx playwright test"
+    "test": "npx playwright test",
+    "test:all": "npx playwright test",
+    "test:week1": "npx playwright test --project=week1",
+    "test:week2": "npx playwright test --project=week2",
+    "test:week3": "npx playwright test --project=week3",
+    "test:week4": "npx playwright test --project=week4",
+    "test:week5": "npx playwright test --project=week5",
+    "test:week6": "npx playwright test --project=week6",
+    "test:week7": "npx playwright test --project=week7",
+    "test:week8": "npx playwright test --project=week8",
+    "test:week9": "npx playwright test --project=week9",
+    "test:week10": "npx playwright test --project=week10",
+    "test:week11": "npx playwright test --project=week11"
   },
   "devDependencies": {
     "@playwright/test": "^1.43.1",
