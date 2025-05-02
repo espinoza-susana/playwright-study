@@ -9,9 +9,17 @@ Run tests with:
 npm test
 ```
 
-🔧 To make week8 work:
-Install the xlsx library:
-
-bash
-Copy
-npm install xlsx
+🔧 OR with:
+```
+npm run test:week1
+npm run test:week2
+npm run test:week3
+npm run test:week4
+npm run test:week5
+npm run test:week6
+npm run test:week7
+npm run test:week8
+npm run test:week9
+npm run test:week10
+npm run test:week11
+```
