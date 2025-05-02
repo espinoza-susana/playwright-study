@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { HomePage } from './page-objects/HomePage';
+import { HomePage } from '../../helpers/HomePage';
 
 test('navigation menu works', async ({ page }) => {
   const home = new HomePage(page);
